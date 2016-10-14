@@ -1,0 +1,174 @@
+html>
+
+<head>
+
+<title>VIA TEYLAN</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+
+<link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
+
+<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Lato|Skranji:700">
+
+<script type="text/javascript" charset="utf-8" src="js/jquery-1.9.1.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="js/jquery.lightbox-0.5.min.js"></script>
+
+<style type="text/css">
+
+
+body {
+				
+
+background-image: url("images/back.jpg");
+				
+
+color: white;
+				
+
+padding: 20px;}
+
+
+
+li:hover {
+
+      color:navy; 
+
+	  background-color: white; 
+
+
+	  font-style: italic;}
+
+	  .down {
+
+	  color:navy; 
+
+	  background-color: white; 
+
+	  font-style: italic;}
+
+	
+
+	li   {
+
+	     display: inline;
+
+	     margin-right: 10px;
+
+             padding: 20px
+
+	     font-family: Verdana,Tahoma;
+
+	     border-bottom: 1px solid;}
+
+</style>
+
+<body background="images/back.jpg">
+
+<center><img src="images/logo3.jpg" alt="Logo 1" style="width:350;height:300;"></center>
+
+<center><b>
+
+<li><a href="index.html"><font size="3">HOME</li></font></a>
+
+<li><a href="index2.html"><font size="3">ABOUT ME</li></font></a>
+
+<li><a href="index3.html"><font size="3">PHOTOS</li></font></a>
+
+<li><a href="index4.html"><font size="3">CONTACT ME</li></font></a>
+
+</b>
+
+</center>
+
+
+<div id="wrapper">
+
+
+<div id="content">
+
+
+<h1>  M  E  E  T   V  I  A  T  E  Y  L  A  N  </h1>
+
+
+<div class="photos">
+
+
+      <ul class="clearfix">
+
+<li><a href="images/about1.jpg"rel="lightbox" <a><img src="images/about1.jpg" width="200"height="200"></li></a>
+
+ 
+<li><a href="images/about.jpg" rel="lightbox" <a><img src="images/about.jpg" width="200"height="200"></li></a>
+
+<li><a href="images/about2.jpg" rel="lightbox" <a><img src="images/about2.jpg" width="200"height="200"></li></a>
+
+<figure caption><font size="5" font color="pink" font style=" tahoma"> 
+
+She is Via Miguel P. Teylan, 19 years old and you can call her via. She was raised and born in Taguig City.
+<br/>
+<br/>
+
+She's more than what people see, she gets frustrated when people say things about her because little did they know she's a quirky, sweet, soft spoken and kind hearted human being. She's been through a lot of challenges in life and everyone thinks she is strong but what they don't know is that at sometime she can't barely carry on.
+<br/>
+<br/>
+<br/>
+She enjoys long walks, loves travelling, going out with friends, and she loves dogs as much as she loves her boyfriend(FACT! LOL) She copes up with stress by eating and watching movies, and ofcourse shopping.  </font>
+<br/>
+</ul>
+   </div>
+    </div>
+    
+    
+  </div>
+
+<div id="wrapper">
+
+
+<div id="content">
+
+
+
+<h1> A B O U T T H I S B L O G </h1>
+
+<div class="photos">
+
+ <ul class="clearfix">
+
+<figure caption><font size="5" font color="pink" font style=" tahoma"><center> This blog is where via shares her life and love for travel.</figure></font></center>
+
+</ul>
+ 
+      </div>
+    </div>
+    
+    
+  </div>
+
+
+<script type="text/javascript">
+
+$(function(){
+
+  $('a[rel=lightbox]').lightBox({
+
+    containerResizeSpeed: 250,
+
+    fixedNavigation: true
+
+  });
+
+  $('a[rel=2ndlightbox]').lightBox({
+
+    overlayBgColor: '#fff',
+
+    overlayOpacity: 0.7
+
+  });
+
+});
+</script>
+</body>
+</html>
